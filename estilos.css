@@ -1,0 +1,75 @@
+body {
+    background-color: rgba(3, 3, 49, 0.349);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principaL */
+.contenedor {
+    width: 350px;
+    background-color: rgba(75, 3, 3, 0.8);
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;  
+
+}
+/*Imagen*/
+.foto{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+/* titulo */
+h1 {
+    color: darkblue;
+}
+/* Texto */
+p {
+    color: #333;
+    font-size: 16px;
+}
+/* Boton */
+button {
+    background-color: darkblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* Efecto al pasar el mause */
+button:hover {
+    background-color: blue;
+}
+.contenedor2{
+    width: 1000px;
+    background-color: rgba(41, 2, 2, 0.8);
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.banner{
+    width: 100%;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+h2{
+    color: blueviolet;
+    font-family: Cambria;
+    font-size: 69px;
+}
+p {
+    color: rgb(173, 243, 98);
+}

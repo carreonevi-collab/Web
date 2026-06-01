@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   background: linear-gradient(to right,black, cyan,white);
+}
+.contenedor1{
+    width: 900px;
+    background-color: #1e1e1e;
+    border-left: 8px solid cyan;
+    box-shadow: 0px 0px 30px cyan;
+    border-radius: 20px;
+    margin: 30px auto;
+    padding: 25px;
+
+}
+.contenido1{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.texto1{
+    font-family: initial;
+    font-size: 25px;
+    color: white;
+}
+.titulo{
+    text-align: center;
+    font-family: fantasy;
+    color: white;
+}
+button {
+    background-color: darkblue;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.menu button{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.menu button:hover{
+    background-color: rgb(54, 3, 78);
+}
+.menu{
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+.foto{
+    border-radius: 4px;
+    transition: 0.5s;
+    width: 300px;
+}
+
+.foto:hover{
+    transform: scale(1.05);
+}

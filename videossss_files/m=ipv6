@@ -1,0 +1,6 @@
+loaded_h_0(function(_){var window=this;
+_.v("ipv6");
+var bbE=function(a){_.jh("google.v6t",Date.now());_.Di("google.v6s",0);abE=new Image;_.Di("google.v6",abE);abE.onload=abE.onerror=()=>{_.Di("google.v6s",1)};abE.src=`${a}&rndm=`+Math.random()},abE=null;_.ph("ipv6",{init:function(a){a.url&&bbE(a.url)}});
+_.x();
+});
+// Google Inc.

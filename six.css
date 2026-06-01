@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, rgb(236, 197, 197),red);
+}
+.contenedor1{
+    width: 900px;
+    background: linear-gradient(to right,#dbeafe, #faba08);
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px red;
+}
+.contenido1{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.texto1{
+    font-family: fantasy;
+}
+.contenedor2{
+    width: 900px;
+    background-color: rgba(175, 224, 0, 0.75);
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+.contenido2{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.texto2{
+    font-family: fantasy;
+}
+.contenedor3{
+    width: 900px;
+    background-color: rgba(0, 72, 131, 0.75);
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+.contenido3{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.texto3{
+    font-family: fantasy;
+}
+.titulo1{
+    text-align: center;
+}
+.titulo2{
+    text-align: center;
+}
+.titulo3{
+    text-align: center;
+}
+.contenedor2{
+    width: 900px;
+    background: linear-gradient(to right,#dbeafe, #02fdc7);
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px red;
+}.contenedor3{
+    width: 900px;
+    background: linear-gradient(to right,#dbeafe, #c929f1);
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px red;
+}
+.titulo1,
+.titulo2,
+.titulo3{
+    font-size: 35px;
+    font-family: cursive;
+}
+.texto1,
+.texto2,
+.texto3{
+    font-family: monospace;
+    font-size: 20px;
+}
+button {
+    background-color: rgb(13, 13, 14);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.menu button{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.menu button:hover{
+    background-color: rgb(1, 8, 6);
+}
+.menu{
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}

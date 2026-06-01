@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, black, darkblue, purple);
+}
+.contenedor1{
+    width: 900px;
+    background-color: rgba(0,0,0,0.75);
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+.titulo{
+    color: lightblue;
+    text-align: center;
+    font-size: 60px;
+}
+.contenido1{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.foto{
+    width: 250px;
+    border-radius: 10px;
+}
+.texto1{
+    color: white;
+    font-size: 25px;
+}
+.contenedor2{
+    width: 900px;
+    background-color: rgba(0,0,0,0.75);
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+.contenido2{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.texto2{
+    color: white;
+    font-size: 25px;
+}
+.contenedor3{
+    width: 900px;
+    background-color: rgba(0,0,0,0.75);
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+.contenedor4{
+   width: 900px;
+    background-color: rgba(40,5,5,0.8);
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 20px; 
+    color: rgb(147, 221, 147);
+    text-align: center;
+} 
+.video{
+    width: 200px;
+}
+.texto3{
+    color: white;
+    font-size: 25px;
+    font-family: cursive;
+}
+.titulo{
+    color: cyan;
+    text-align: center;
+    font-size: 60px;
+    font-family: fantasy;
+    text-shadow: 0px 0px 15px cyan;
+    letter-spacing: 3px;
+}
+.contenido1{
+    background: linear-gradient(to right, black, darkblue);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px cyan;
+    transition: 0.5s;
+}
+
+.contenido:hover{
+    transform: scale(1.02);
+}
+
+.titulo{
+    color: cyan;
+    text-shadow: 0px 0px 15px cyan;
+    font-family: 'Times New Roman';
+}
+
+.foto{
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.foto:hover{
+    transform: scale(1.05);
+}
+.contenido2{
+    background: linear-gradient(to right, black, darkblue);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px cyan;
+    transition: 0.5s;
+}
+.contenido3{
+    background: linear-gradient(to right, black, darkblue);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px cyan;
+    transition: 0.5s;
+    
+}
+.texto1{
+    color: white;
+    font-size: 25px;
+    font-family: cursive;
+}
+.texto2{
+    color: white;
+    font-size: 25px;
+    font-family: cursive;
+}
+.contenedor4{
+    background: linear-gradient(to right, black, rgb(1, 28, 63));
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(3, 65, 65);
+    transition: 0.5s;
+
+}
+.menu{
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+.menu button{
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.menu button:hover{
+    background-color: rgb(2, 87, 59);
+}
+button {
+    background-color: darkblue;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
